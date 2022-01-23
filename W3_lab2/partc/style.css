@@ -1,0 +1,31 @@
+/* external style*/
+
+#title{
+    background-color: green;
+    color: white;
+    border: black solid;
+}
+
+.box{
+    border:black solid thin;
+    width: fit-content;
+    padding: 1px;
+}
+
+.headline{
+    border: black solid;
+    background-color: rgb(236, 122, 143);
+    width: 250px;
+    margin: 0;
+}
+
+table, td, th{
+    border: black solid thin;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td{
+    color: rgb(236, 122, 143);
+}
