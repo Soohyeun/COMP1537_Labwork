@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lab4</title>
+    <title>W5_Lab #4</title>
     <style>
         *{
             box-sizing: border-box;
@@ -16,11 +16,13 @@
         #top_navigation a{
             color: #f2f2f2;
             padding: 14px 16px 14px 16px;
-            display: inline-block;
+            display: block;
+            float: left;
             text-decoration: none;
         }
         #top_navigation{
             background-color: #333;
+            overflow: hidden;
         }
         #left_column{
             width: 75%;
@@ -46,6 +48,21 @@
             text-align: center;
         }
 
+        @media screen and (max-width: 600px){
+            #left_column, #right_column{
+                width:100%;
+            }
+            #right_column{
+                padding-left: 0px;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            #top_navigation a{
+                float: none;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -58,7 +75,7 @@
         <a href="#">Link</a>
         <a href="#">Link</a>
         <a href="#">Link</a>
-        <a href="#">Link</a>
+        <a href="#" style="float: right;">Link</a>
     </div>
 
     <div id="left_column">

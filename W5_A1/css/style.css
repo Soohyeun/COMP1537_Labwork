@@ -1,0 +1,88 @@
+/* external style*/
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bold_word{
+    font-weight: bolder;
+}
+
+ul{
+    line-height: 150%;
+}
+
+#header{
+    padding: 30px
+}
+
+#nav{
+    background-color: whitesmoke;
+    border-right: turquoise solid 1px;
+    width: 15%;
+    height: 220vh;
+    float: left;
+    margin: 0px;
+    padding-top: 100px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#nav h5{
+    margin-bottom: 5px;
+}
+
+#nav hr {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#article{
+    width: 85%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 130%;
+}
+
+#article_header{
+    padding-bottom: 20px;
+}
+
+#article_header h1{
+    margin-bottom: 5px;
+}
+#article_header p{
+    margin-top: 5px;
+}
+
+.img{
+    float: right;
+    text-align: center;
+    border: gray solid 1px;
+    padding: 2px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+.img h3{
+    margin: 2px;
+    background-color: rgb(221, 189, 9);
+}
+
+#contents{
+    border: gray solid 1px;
+    background-color: whitesmoke;
+    width: 240px;
+    line-height: 150%;
+}
+#contents h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#etymology h2, #see_also h2{
+    font-family: serif;
+    margin-bottom: 10px;
+}
