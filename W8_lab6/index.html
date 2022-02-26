@@ -1,59 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="code.js"> </script>
+    <link rel="stylesheet" href="style/style.css">
     <title>W8_Lab #6</title>
-    <style>
-        .add{
-            background-color: rgb(233, 99, 99);
-            width: fit-content;
-            margin: 1px;
-        }
-
-        .minus{
-            background-color: rgb(94, 94, 230);
-            width: fit-content;
-            margin: 1px;
-        }
-
-        .multi{
-            background-color: rgb(141, 60, 141);
-            width: fit-content;
-            margin: 1px;
-        }
-
-        .divide{
-            background-color: rgb(48, 122, 48);
-            width: fit-content;
-            margin: 1px;
-        }
-    </style>
 </head>
+
 <body>
-    <label for="x">First operand: </label>
-    <input type="text" id="x">
-    </br>
-    <label for="y">Second operand: </label>
-    <input type="text" id="y">
-    </br>
-    
-    <button id="addition"> + </button>
-    <button id="subtraction"> - </button>
-    <button id="multiply"> * </button>
-    <button id="division"> / </button>
+    <div id="calculator">
+        <h1> Calculator!</h1>
+        <div class="input">
+            <label for="x" style="padding-left: 7px;">First operand: </label>
+            <input type="text" id="x">
+        </div>
+        <div class="input">
+            <label for="y">Second operand: </label>
+            <input type="text" id="y">
+        </div>
 
-    <p id="result">
-        Result: 
-    </p>
+        <div class="input">
+            <button id="add_btn" style="background-color: lightcoral"> + </button>
+            <button id="subtract_btn" style="background-color: lightblue"> - </button>
+            <button id="multiply_btn" style="background-color: lightgreen"> * </button>
+            <button id="divide_btn" style="background-color: lightyellow"> / </button>
+            <button id="power_btn" style="background-color: lightpink"> ^ </button>
+            <button id="remainer_btn" style="background-color: lightslategrey"> % </button>
+        </div>
 
-    <h2>History</h2>
+        <p id="result">
+            Result:
+        </p>
 
-    <p id="history"></p>
+        <div id="history_section">
+            <h2 style="padding: 5px 10px; margin-bottom: 0;">History: </h2>
 
+            <p id="history"></p>
+        </div>
+    </div>
+    <br>
     <a href="../../index.html">Go Back!</a>
 </body>
+
 </html>

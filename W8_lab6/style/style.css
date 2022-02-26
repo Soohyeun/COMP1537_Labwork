@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace
+}
+
+#calculator{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+h1{
+    background-color: whitesmoke;
+    padding: 10px 50px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 270px;
+    text-align: center;
+}
+
+input{
+    width: 50px;
+}
+
+.input{
+    margin: 12px;
+    text-align: center;
+}
+
+button{
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#result{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 260x;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 1px 1px 5px inset gray;
+}
+
+#history_section{
+    width: 280px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#history{
+    margin-top: 0;
+}
+
+.add{
+    background-color: lightcoral;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
+
+.subtract{
+    background-color: lightblue;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
+
+.multiply{
+    background-color: lightgreen;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
+
+.divide{
+    background-color: lightyellow;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
+
+.power{
+    background-color: lightpink;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
+
+.remainer{
+    background-color: lightslategrey;
+    width: 280px;
+    padding-left: 10px;
+    height: 23px;
+    padding-top: 2.5px;
+}
