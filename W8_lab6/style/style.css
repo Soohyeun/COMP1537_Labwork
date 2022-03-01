@@ -25,7 +25,7 @@ input{
     width: 50px;
 }
 
-.input{
+.input_value{
     margin: 12px;
     text-align: center;
 }
@@ -103,4 +103,8 @@ button{
     padding-left: 10px;
     height: 23px;
     padding-top: 2.5px;
+}
+
+#reset_btn {
+    width: 100px;
 }
