@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W10 Assignment 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./code.js"> </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contents" style="width:40%; float: left;">
+        <div>
+            <div>
+                <label for="page_size">Page size:</label>
+                <select name="page_size" id="page_size">
+                    <option value="3">3</option>
+                    <option value="5" selected>5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+            Search TMDB by title
+            <input type="text" id="input_value">
+            <button id="search_btn">Search</button>
+        </div>
+        <div id="page_btn_div">
+            <button id="first_btn">First</button>
+            <button id="prev_btn">prev.</button>
+            <span id="num_btn_div"> </span>
+            <button id="next_btn">next</button>
+            <button id="last_btn">last</button>
+        </div>
+        <div id="movie_list">
+        </div>
+        <br>
+        <a href="../index.html">Go back!</a>
+    </div>
+    <div id="backdrop" style="width: 60%; float: left; padding-left: 30px;">
+
+    </div>
+</body>
+
+</html>
