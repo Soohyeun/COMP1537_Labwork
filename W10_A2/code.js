@@ -32,7 +32,7 @@ function pagination(data) {
 }
 
 function get_movie() {
-    page_id = 1;
+    // page_id = 1;
     movie_title = $('#input_value').val();
     if (movie_title != "")
         $.ajax({
